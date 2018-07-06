@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "gocryptotrader-web": {
+    "crypto-pricefeeder-ui": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "gocryptotrader-web:build"
+            "browserTarget": "crypto-pricefeeder-ui:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "gocryptotrader-web:build:production"
+              "browserTarget": "crypto-pricefeeder-ui:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "gocryptotrader-web:build"
+            "browserTarget": "crypto-pricefeeder-ui:build"
           }
         },
         "test": {
@@ -97,7 +97,7 @@
         }
       }
     },
-    "gocryptotrader-web-e2e": {
+    "crypto-pricefeeder-ui-e2e": {
       "root": "",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -106,7 +106,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "gocryptotrader-web:serve"
+            "devServerTarget": "crypto-pricefeeder-ui:serve"
           }
         },
         "lint": {
@@ -123,7 +123,7 @@
       }
     }
   },
-  "defaultProject": "gocryptotrader-web",
+  "defaultProject": "crypto-pricefeeder-ui",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",

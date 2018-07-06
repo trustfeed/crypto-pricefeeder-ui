@@ -1,19 +1,12 @@
 {
-    "name": "gocryptotrader-web",
+    "name": "crypto-pricefeeder-ui",
     "version": "0.4.0",
-    "description": "Front-end interface for GoCryptoTrader",
-    "homepage": "https://github.com/thrasher-/gocryptotrader",
+    "description": "Front-end interface for go-crypto-pricefeeder",
+    "homepage": "https://github.com/trustfeed/crypto-pricefeeder-ui",
     "author": {
-        "name": "Scott",
-        "email": "scott@gloriousedge.com",
-        "github": "https://github.com/gloriousCode/",
-        "website": "https://www.gloriousedge.com"
+        "name": "wittgena",
+        "email": "wittgena@gmail.com",
     },
-    "contributors": [{
-        "name": "Maxime GRIS",
-        "email": "maxime.gris@gmail.com",
-        "github": "https://github.com/maximegris/"
-    }],
     "keywords": [
         "angular",
         "electron",
